@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="app_bottom_nav_chats" translatable="true">Chats</string>
+    <string name="app_bottom_nav_calls" translatable="true">Calls</string>
+    <string name="app_bottom_nav_users" translatable="true">Users</string>
+    <string name="app_bottom_nav_groups" translatable="true">Groups</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_enter_your_uid">Enter your UID</string>
+    <string name="app_enter_uid">Enter UID</string>
+    <string name="app_continue">Continue</string>
+    <string name="app_error_invalid_user_or_uid_login">Invalid ID</string>
+    <string name="app_user">User</string>
+    <string name="app_group">Group</string>
+    <string name="app_cred_id">Id</string>
+    <string name="app_not_logged_in">Not logged in</string>
+    <string name="app_cred_region">appRegion</string>
+    <string name="app_cred_auth">appAuthKey</string>
+    <string name="app_shared">appShared</string>
+    <string name="app_message_id">message_id</string>
+    <string name="app_base_message">base message</string>
+    <string name="app_block">block\n</string>
+    <string name="app_delete_chat_success">delete sucess</string>
+    <string name="app_delete_chat_error">Delete Error</string>
+    <string name="app_unblock">Unblock</string>
+    <string name="app_block_user_success">Block sucess</string>
+    <string name="app_block_user_error">Block Error</string>
+    <string name="app_you_have_blocked_this_user">You have blocked this user</string>
+    <string name="app_has_blocked_you">Has blocked you</string>
+    <string name="app_please_select_app_region">Select app region</string>
+    <string name="app_invalid_app_id">Invalid ID</string>
+    <string name="app_invalid_auth_token">Invalid Auth Key</string>
+    <string name="app_region_us">US\t</string>
+    <string name="app_region_eu">EU</string>
+    <string name="app_region_in">IN</string>
+    <string name="app_app_id">app ID</string>
+    <string name="app_app_id_hint">ID</string>
+    <string name="app_auth_key">Auth key\n</string>
+    <string name="app_auth_key_hint">Auth key</string>
+    <string name="app_block_user_unable_to_send_message">Blocked User</string>
+    <string name="app_unblock_message">Block user can\'t send message</string>
+    <string name="app_unblock_user">Unblock</string>
+    <string name="app_user_info">Info\n</string>
+    <string name="app_voice">Voice\n</string>
+    <string name="app_video">Video</string>
+    <string name="app_delete">Delete</string>>
+</resources>

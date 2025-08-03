@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cometchat_color_primary">#08E3F7</color>
+    <color name="cometchat_color_neutral_50">#FFFFFF</color>
+    <color name="cometchat_color_neutral_900">#141414</color>
+    <color name="cometchat_color_text_primary">@color/cometchat_color_neutral_900</color>
+
+</resources>

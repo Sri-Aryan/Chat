@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="cometchatPrimaryColor">#08E3F7</item>
+        <item name="cometchatIncomingMessageBubbleStyle">@style/CustomIncomingMessageBubbleStyle</item>
+
+        <!-- Added for BottomNavigationView text appearance -->
+        <item name="cometchatTextAppearanceCaption1Medium">@style/CometchatTextAppearanceCaption1Medium</item>
+        <item name="cometchatTextAppearanceCaption1Regular">@style/CometchatTextAppearanceCaption1Regular</item>
+        <!-- Add other custom cometchat attributes if needed by other components -->
+
+    </style>
+
+
+    <style name="Theme.Chat" parent="Base.Theme.Chat" />
+
+    <!-- Added styles for BottomNavigationView text appearance -->
+    <style name="CometchatTextAppearanceCaption1Medium" parent="TextAppearance.MaterialComponents.Caption">
+        <!-- Example: Customize active item text. You might want to use your theme's colors. -->
+        <!-- <item name="android:textColor">?attr/colorPrimary</item> -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CometchatTextAppearanceCaption1Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <!-- Example: Customize inactive item text. You might want to use your theme's colors. -->
+        <!-- <item name="android:textColor">?attr/colorOnSurface</item> -->
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomMessageComposerStyle" parent="CometChatMessageComposerStyle">
+        <item name="cometchatMessageComposerAttachmentIconTint">#618FED</item>
+        <item name="cometchatMessageComposerVoiceRecordingIconTint">#618FED</item>
+        <item name="cometchatMessageComposerActiveStickerIconTint">#618FED</item>
+        <item name="cometchatMessageComposerInactiveStickerIconTint">#618FED</item>
+        <item name="cometchatMessageComposerAIIconTint">#618FED</item>
+        <item name="cometchatMessageComposerActiveSendButtonDrawable">
+            @drawable/active_send_button
+        </item>
+    </style>
+
+    <style name="CustomOutgoingMessageBubbleStyle" parent="CometChatOutgoingMessageBubbleStyle">
+        <item name="cometchatMessageBubbleBackgroundColor">#618FED</item>
+    </style>
+    <style name="CustomIncomingMessageBubbleStyle" parent="CometChatIncomingMessageBubbleStyle">
+        <item name="cometchatMessageBubbleBackgroundColor">#618FED</item>
+    </style>
+
+    <style name="CustomThreadHeaderStyle" parent="CometChatThreadHeaderStyle">
+        <item name="cometchatThreadHeaderOutgoingMessageBubbleStyle">@style/CustomOutgoingMessageBubbleStyle</item>
+        <item name="cometchatThreadHeaderIncomingMessageBubbleStyle">@style/CustomIncomingMessageBubbleStyle</item>
+        <item name="cometchatThreadHeaderBackgroundColor">#FEEDE1</item>
+        <item name="cometchatThreadHeaderReplyCountTextColor">#618FED</item>
+        <item name="cometchatThreadHeaderReplyCountBackgroundColor">#FEEDE1</item>
+    </style>
+
+    <style name="CustomCallButtonStyle" parent="CometChatCallButtonsStyle">
+        <item name="cometchatCallButtonsVideoCallIconTint">#6852D6</item>
+        <item name="cometchatCallButtonsVoiceCallIconTint">#6852D6</item>
+        <item name="cometchatCallButtonsMarginBetween">16dp</item>
+        <item name="cometchatCallButtonsVideoCallButtonPadding">8dp</item>
+        <item name="cometchatCallButtonsVoiceCallButtonPadding">8dp</item>
+        <item name="cometchatCallButtonsVideoCallBackgroundColor">#EDEAFA</item>
+        <item name="cometchatCallButtonsVoiceCallBackgroundColor">#EDEAFA</item>
+        <item name="cometchatCallButtonsVideoCallStrokeWidth">1dp</item>
+        <item name="cometchatCallButtonsVoiceCallStrokeWidth">1dp</item>
+        <item name="cometchatCallButtonsVideoCallStrokeColor">#E8E8E8</item>
+        <item name="cometchatCallButtonsVoiceCallStrokeColor">#E8E8E8</item>
+        <item name="cometchatCallButtonsVideoCallCornerRadius">8dp</item>
+        <item name="cometchatCallButtonsVoiceCallCornerRadius">8dp</item>
+    </style>
+
+    <style name="CustomAvatarStyle" parent="CometChatAvatarStyle">
+        <item name="cometchatAvatarStrokeRadius">8dp</item>
+        <item name="cometchatAvatarBackgroundColor">#618FED</item>
+    </style>
+
+    <style name="CustomStatusIndicatorStyle" parent="CometChatStatusIndicatorStyle">
+        <item name="cometchatStatusIndicatorCornerRadius">8dp</item>
+        <item name="cometchatStatusIndicatorOnlineIcon">@drawable/online_indicator_drawable</item>
+    </style>
+
+    <style name="DetailsAvatarStyle" parent="CometChatAvatarStyle">
+        <item name="cometchatAvatarPlaceHolderTextAppearance">
+            @style/AvatarPlaceHolderTextAppearance
+        </item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AvatarPlaceHolderTextAppearance" parent="CometChatTextAppearanceHeading2.Bold">
+        <item name="android:textSize">@dimen/cometchat_48sp</item>
+    </style>
+
+
+
+
+    <!-- themes.xml -->
+
+
+
+</resources>
